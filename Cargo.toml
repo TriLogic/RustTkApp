@@ -1,0 +1,7 @@
+[package]
+name = "tk_app"
+version = "0.1.0"
+edition = "2021"
+
+[dependencies]
+tcl = "0.1.9"
