@@ -1,5 +1,5 @@
 [package]
-name = "tk_app"
+name = "rust_tk_app"
 version = "0.1.0"
 edition = "2021"
 
