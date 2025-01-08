@@ -14,3 +14,7 @@ This application provides examples of the following:
 - Using Tk modal dialogs.
 
 ![image](https://github.com/user-attachments/assets/ef38523c-3f24-4c07-b7de-d21f7adce570)
+
+# Notes
+- This application was built on Linux Mint.
+- Your mileage may vary.
