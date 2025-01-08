@@ -53,7 +53,7 @@ fn main() -> TclResult<()> {
         
         wm protocol . WM_DELETE_WINDOW on_button_exit
 
-        puts [greetme "Da-da-dadeeoe"]
+        puts [greetme "World"]
         
         try {
             puts [greetme]
