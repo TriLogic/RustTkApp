@@ -3,10 +3,10 @@ A small application that embeds TclTk within a Rust application.
 
 ![image](https://github.com/user-attachments/assets/1f8b23cf-b1f2-4022-a2c8-97fea5491891)
 
-This application provides an excample of the following:
+This application provides examples of the following:
 
-- Leverage the Tcl Interpreter via the tcl crate version 0.1.9
-- Leverage the Tk toolkit
+- Including the Tcl Interpreter via the tcl crate version 0.1.9
+- Leveraging the Tk toolkit
 - Interpreter creation
 - Tcl package inclusion and versioning
 - Evaluation Tcl scripts from Rust
