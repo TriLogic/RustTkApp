@@ -9,8 +9,8 @@ This application provides examples of the following:
 - Leveraging the Tk toolkit
 - Interpreter creation
 - Tcl package inclusion and versioning
-- Evaluation Tcl scripts from Rust
-- Create Tcl commands using Rust functions.
+- Evaluation of Tcl scripts from Rust
+- Creating Tcl commands using Rust functions.
 - Using Tk modal dialogs.
 
 ![image](https://github.com/user-attachments/assets/ef38523c-3f24-4c07-b7de-d21f7adce570)
