@@ -2,7 +2,7 @@ use tcl::{tclfn, Interpreter, TclError, TclResult, Obj };
 fn main() -> TclResult<()> {
 
     // create the interpreter
-    let mut interp = Interpreter::new()?;
+    let interp = Interpreter::new()?;
 
     // load Tk
     let tcl_result = interp.eval(r#"
@@ -17,7 +17,6 @@ fn main() -> TclResult<()> {
             Ok( a * b )
         }
     );
-
 
     // Create a native Rust function that formats a greeting.
     let cmd_greetme = tclfn!(&interp, cmd: "greetme",/* args: String::from("name"),*/
@@ -63,8 +62,9 @@ fn main() -> TclResult<()> {
     "#)?;
 
 
-    let result = interp.eval("vwait forever")?;
+    let tcl_result = interp.eval("vwait forever")?;
 
+    println!("Result: {}", tcl_result );
     Ok(())
 }
 
